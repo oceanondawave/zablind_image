@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# Allow git config files and license
+!.gitignore
+!LICENSE
+!README.md
+
+# Unignore folder chain explicitly
+!download_model.py
+!requirements.txt
+!server.py
+!startup.mp3

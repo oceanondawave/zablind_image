@@ -1,0 +1,7 @@
+Flask
+transformers
+torch
+Pillow
+pygame
+gTTS
+googletrans==3.1.0a0
