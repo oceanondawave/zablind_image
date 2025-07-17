@@ -1,5 +1,3 @@
-# zablind_image
-
 # Zablind Image
 
 A Flask app to host the offline [BLIP](https://huggingface.co/Salesforce/blip-image-captioning-base) model to handle image description for [Zablind](https://github.com/oceanondawave/zablind).
@@ -35,12 +33,12 @@ A Flask app to host the offline [BLIP](https://huggingface.co/Salesforce/blip-im
   ```
 - The server should run at this endpoint: `http://127.0.0.1:47860/caption`.
 - How to test the local API:
-  -- Use the `POST` method.
-  -- At the Headers, use a key as `X-Auth` with the value (default is `zbimage`).
-  -- In the `Body`, if you want to post as an image file, choose the key as `image` and post the selected image file. If you want to post as `JSON`, you should follow the structure below:
-  `js
-	{ path: <path_to_your_image_on_local_storage> }
-	`
+  - Use the `POST` method.
+  - At the Headers, use a key as `X-Auth` with the value (default is `zbimage`).
+  - In the `Body`, if you want to post as an image file, choose the key as `image` and post the selected image file. If you want to post as `JSON`, you should follow the structure below:
+    ```js
+    { path: <path_to_your_image_on_local_storage> }
+    ```
 
 # How to build (for Windows)
 
